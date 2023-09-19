@@ -14,6 +14,6 @@ elif typ == "2":
 elif typ == "3":
     print("Введите значение радиуса круга")
     R = int(input())
-    print("S =", 2 * math.pi * R)
+    print("S =", math.pi * (R ** 2))
 else:
     print("Такой команды нет")
